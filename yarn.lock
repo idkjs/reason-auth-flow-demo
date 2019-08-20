@@ -6065,10 +6065,10 @@ react-navigation-drawer@~1.2.1:
   dependencies:
     react-native-tab-view "^1.2.0"
 
-react-navigation-hooks@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-navigation-hooks/-/react-navigation-hooks-1.0.1.tgz#f8bc2061c31026b14162943650946df715a9ae57"
-  integrity sha512-CUnnzrDlLB+OLYQwlY90T4/Bnlq5EbVnSdenrC+29JUgR5cys50ZL+ixQjArVSv5aiuyyQ68Fo4tF0ru3sFt8Q==
+react-navigation-hooks@1.0.2-alpha.0:
+  version "1.0.2-alpha.0"
+  resolved "https://registry.yarnpkg.com/react-navigation-hooks/-/react-navigation-hooks-1.0.2-alpha.0.tgz#bcffa6e41f1692c9dda48df719f724823af1dd10"
+  integrity sha512-brYtHv5shH2DvTTibJNJ2U4KYv70h0l2B+MFWRhtWsMkJUmJWPEznZJqAV6aRXV8JOVvi5B76hnOb4tZD83GJg==
 
 react-navigation-stack@~1.4.0:
   version "1.4.0"
@@ -6205,9 +6205,15 @@ reason-expo@^34.0.0:
   resolved "https://registry.yarnpkg.com/reason-expo/-/reason-expo-34.0.0.tgz#d68814f9ad5dfe3940087affea25be70574c1ffd"
   integrity sha512-bwIRkp5D5XqIuiIYiWlv6F9TNYZaAXrbOXTQEDdqZYBCoEaNhAXX9XXgP/6jPIoYt8GG6tOidb/ty8aYeDc8aA==
 
-"reason-react-native-monorepo@https://github.com/reasonml-community/reason-react-native":
-  version "0.0.0"
-  resolved "https://github.com/reasonml-community/reason-react-native#6ac1b89ff90e25f7577c2996988292bd0a2353a4"
+reason-react-native@0.60.0:
+  version "0.60.0"
+  resolved "https://registry.yarnpkg.com/reason-react-native/-/reason-react-native-0.60.0.tgz#7adb9837f28d79d9f1e009b5d01ae864aff15d51"
+  integrity sha512-7vq7KIaY1kGb5xnWVewuy8ttBx7/HAgeKfiwDYV3rij6Z89vU6QIheR6rENV8UxaKwRN/Gw168ladWLM042k9A==
+
+reason-react-navigation@3.11.0-alpha.0:
+  version "3.11.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/reason-react-navigation/-/reason-react-navigation-3.11.0-alpha.0.tgz#4333c0cc1f42490e968a6d80b260a21aff360e73"
+  integrity sha512-o07BjQ2BvUe9NqwUWnclZfIGBrWb3+AUQKw5d0475zEZXOE8Y57k7BY51iHvr1czvTeh8B8Zk01xxI5ZCvHZAA==
 
 reason-react@^0.7.0:
   version "0.7.0"
