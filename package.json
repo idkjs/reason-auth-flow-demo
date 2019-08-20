@@ -12,7 +12,7 @@
     "re:clean": "bsb -clean-world",
     "re:watch": "bsb -clean-world -make-world -w",
     "re:build": "bsb -clean-world -make-world",
-    "reason-react-native-monorepo-trick": "symlink-dir ./node_modules/reason-react-native-monorepo/reason-react-navigation node_modules/reason-react-navigation",
+    "reason-react-native-monorepo-trick": " symlink-dir ./node_modules/reason-react-native-monorepo/reason-react-native node_modules/reason-react-native && symlink-dir ./node_modules/reason-react-native-monorepo/reason-react-navigation node_modules/reason-react-navigation",
     "prepare": "yarn reason-react-native-monorepo-trick",
     "test": "jest"
   },
@@ -22,9 +22,10 @@
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
     "react-native-web": "^0.11.4",
+    "react-navigation": "3.11.1",
+    "react-navigation-hooks": "1.0.2-alpha.0",
     "reason-expo": "^34.0.0",
     "reason-react": "^0.7.0",
-    "reason-react-native": "^0.60.0",
     "reason-react-native-monorepo": "https://github.com/reasonml-community/reason-react-native"
   },
   "devDependencies": {
