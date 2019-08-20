@@ -1,13 +1,10 @@
-# Error
+# Reason React Navigation Auth Flow with Expo
 
-Expo not reading reason-react-navigation symlink trick.
+## Motivation
 
-```
-Trying to open the project in iOS simulator...
-Opening exp://127.0.0.1:19000 in iOS simulator
-
-Press ? to show a list of all available commands.
-Unable to resolve "reason-react-navigation/src/AppContainer.bs.js" from "src/AppNavigator.bs.js"
-Failed building JavaScript bundle.
-Building JavaScript bundle [======================================================= ] 99%
-```
+Replicate the `react-navigation` AuthFlow Demo in ReasonML. The demo is here:
+<https://reactnavigation.org/docs/en/auth-flow.html>. I needed to understand how
+to get some basic `switch` and `stack` navigation working together in
+`ReasonML`. The binding for navigation are `WIP` at the excellent
+[reason-react-native](https://github.com/reasonml-community/reason-react-native)
+repo.
